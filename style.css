@@ -1,0 +1,199 @@
+body {
+	background-color: #f5f5f0;
+	margin: 0;
+}
+
+img {
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	top: 10px;
+  	left: 99px;
+  	z-index: 1;
+}
+
+table {
+	margin-left: 15px;
+}
+
+th {
+	width: 300px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #1a75ff;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.nama {
+	color: #1a75ff;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+.status {
+	color: #666666;
+	font-size: 21px;
+}
+
+.kontak{	
+	font-size: 19px;
+	text-align: left;
+}
+
+.subkontak {
+	color: 	#bfbfbf;
+	font-size: 15px;
+	text-align: left;
+}
+
+.isikontak {
+	color: 	#000000;
+	font-size: 14px;
+	text-align: left;
+	border-width: 1px;
+}
+
+.label {
+  padding: 8px;
+  z-index: 2;
+  font-size: 28px;
+  border-radius: 5px;
+}
+
+.datapribadi {
+	position: absolute;
+	top: 50px;
+	left: 370px;
+	background-color: #4CAF50; 
+	color: white;
+}
+
+.riwayatpendidikan {
+	position: absolute;
+	top: 405px;
+	left: 370px;
+	background-color: #ff9800; 
+	color: white;
+}
+
+.pengalamankerja {
+	position: absolute;
+	top: 810px;
+	left: 370px;
+	background-color: #f44336; 
+	color: white;
+}
+
+.ket {
+	font-size: 14px;
+	color: 	#808080; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato','Verdana','Helvetica', sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.info {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 3px;
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  width: 300px;
+  height: 550px;
+}
+
+.isidatapribadi {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 3px;
+  position: absolute;
+  top: 70px;
+  left: 340px;
+  width: 1000px;
+  height: 320px;
+}
+
+.isiriwayatpendidikan {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 3px;
+  position: absolute;
+  top: 430px;
+  left: 340px;
+  width: 1000px;
+  height: 365px;
+}
+
+.isipengalamankerja {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 3px;
+  position: absolute;
+  top: 830px;
+  left: 340px;
+  width: 1000px;
+  height: 190px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
